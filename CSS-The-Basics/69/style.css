@@ -1,0 +1,89 @@
+/*Universal Selector: selects everything*/
+/* * {
+	color: pink;
+} */
+/*element selected*/
+/* p{
+color: purple;
+} */
+/*Multiple Selector*/
+/* h1, h2 {
+	color: lightblue;
+} */
+
+body{
+  background-color: #f5ebe0;
+}
+button{
+  background-color:#ffcdb2;
+  font-size: 20px;
+}
+h1, h2{
+  color: #b5838d;
+  text-decoration: underline wavy;
+}
+/*id selector*/
+/* HTML code
+<button id="login">Log In</button>
+<button id="signup">Sign Up</button>*/
+#login{
+  background-color:#ddb892;
+  color:#black;
+}
+#signup{
+  background-color: #e9edc9;
+  color:black;
+}
+/*class selector*/
+/*html
+<span class="tags">dogs<span>
+*/
+.tags{
+  color: #6d6875;
+}
+/*descendant selector: select element nested in parent element*/
+footer a {
+	color: #98c1d9;
+  text-decoration: none;
+}
+
+div p a {
+  color:#3d5a80;
+}
+
+/*adjacent selector: select only elements proceeded by the parent element*/
+h2 + button{
+  color:red;
+}
+
+/*direct child: select all elements thats are direct children of the parent element*/
+footer > a {
+  color:green;
+}
+/*attribute selector: select all input elements where the type attrubute is set to "text"*/
+input[type="text"]{
+  width: 300px;
+  color:brown;
+}
+/* selects element when hovered */
+footer a:hover{
+	color: orange;
+}
+/* selects element when clicked and held */
+.post button:active{
+  background-color: palegreen;
+}
+
+.post:nth-of-type(2n){
+  background-color: #e0d8cc;
+}
+/* selects first letter of every element */
+p::first-letter{
+  font-size:15px;
+  font-weight: bold;
+  color: brown;
+}
+/*highlight text*/
+::selection{
+  background-color:#dccce0;
+}
