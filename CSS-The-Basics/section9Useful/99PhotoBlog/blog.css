@@ -1,0 +1,16 @@
+img {
+  width: 30%;
+  height: 30%;
+  margin: calc(10%/6);
+  
+}
+
+header nav {
+  text-transform: uppercase;
+  border-bottom: 2px solid #c9184a;
+  width: 30%;
+  margin-left: calc(10%/6);
+  font-size: 1.5em;
+  padding: 1em 0;
+  font-family: 'Bebas Neue', cursive;
+}

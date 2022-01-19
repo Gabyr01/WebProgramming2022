@@ -1,0 +1,14 @@
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+  /* border-radius: 50%; */
+
+  transition: background-color 1s, border-radius 2s;
+
+}
+.circle:hover {
+  background-color: lightblue;
+  border-radius: 50%;
+
+}
